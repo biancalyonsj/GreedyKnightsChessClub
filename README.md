@@ -13,4 +13,4 @@ Core Concepts I learned Completing this Project:
 - Intents
 - Implementing OnClickListeners
 
-![](MainPage.png)
+<img src ="MainPage.png" width="350" height="600">
