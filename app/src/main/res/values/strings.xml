@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Greedy Knights Chess Club</string>
+    <string name="Desciption">Join the neighborhood Chess Club! Everyone of all ages and skill levels
+    are welcomed. Greedy Knights Chess Club is a great place to learn game winning tatics and play for fun.</string>
+    <string name="location">11415 Kings Grant, La Plata MD 20646</string>
+    <string name="weekday">Mon - Thurs: 11am - 8pm</string>
+    <string name="weekend">Fri and Sat: 10am - 11pm</string>
+    <string name="sunday">Sunday: 1pm - 5pm</string>
+    <string name="contact">301-498-5152</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/banner_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/banner" />
+
+    <ImageView
+        android:id="@+id/twitter_image"
+        android:layout_marginTop="8dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/banner_image"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/facebook_image"
+        android:layout_marginTop="8dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/banner_image"
+        android:layout_toEndOf="@id/twitter_image"
+        android:layout_toRightOf="@id/twitter_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/call_image"
+        android:layout_marginTop="8dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/banner_image"
+        android:layout_toEndOf="@id/facebook_image"
+        android:layout_toRightOf="@id/facebook_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/call" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:textSize="17sp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="20dp"
+        android:text="@string/Desciption"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/map_image"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/description"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/map" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:textSize="17sp"
+        android:layout_toEndOf="@+id/map_image"
+        android:layout_toRightOf="@+id/map_image"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="8dp"
+        android:text="@string/location"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/weekday_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_toEndOf="@+id/map_image"
+        android:layout_toRightOf="@+id/map_image"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="50dp"
+        android:text="@string/weekday"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/weekend_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weekday_hours"
+        android:layout_toEndOf="@+id/map_image"
+        android:layout_toRightOf="@+id/map_image"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/weekend"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/sunday_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weekend_hours"
+        android:layout_toEndOf="@+id/map_image"
+        android:layout_toRightOf="@+id/map_image"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/sunday"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunday_hours"
+        android:layout_toEndOf="@+id/map_image"
+        android:layout_toRightOf="@+id/map_image"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/contact"
+        android:autoLink="phone"
+        android:textColor="#000000" />
+
+</RelativeLayout>
