@@ -13,4 +13,4 @@ Core Concepts I learned Completing this Project:
 - Intents
 - Implementing OnClickListeners
 
-<img src ="MainPage.png" width="350" height="600">
+<img src ="MainPage.png" width="350" height="620">
