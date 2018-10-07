@@ -12,3 +12,5 @@ Core Concepts I learned Completing this Project:
 ----------------------------------------------
 - Intents
 - Implementing OnClickListeners
+
+![](MainPage.png)
